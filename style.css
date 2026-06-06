@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Zalando Sans Expanded", sans-serif;
+    color: khaki;
+    background: linear-gradient(to right, #3e013e, #000000);
+    font-size: 15px;
+    
+
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    color: papayawhip;
+}
+h2{
+    
+    padding: 10px;
+    margin: 5px;
+    color: papayawhip;
+    margin-left: -5px;
+}
+p{
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+img{
+    margin-left: 10px;
+    padding: 5px;
+}
+
+img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+ul,li{
+    margin-left: 15px;
+}
+details{
+    margin-left: 10px;
+    font-size: 15px;
+    color: papayawhip;
+    margin: 10px;
+
+}
+summary{
+    font-size: 15px;
+    color: khaki;
+}
+hr{
+    border: 2px solid khaki;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    color: papayawhip;
+}
+a{
+    color: skyblue;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+fieldset{
+    border: 3px solid khaki;
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+    border-radius: 18px;
+}
+legend{
+    padding: 5px;
+    font-size: 15px;
+    color: papayawhip;
+}
+button{
+    color: black;
+    background: linear-gradient(to right, khaki, papayawhip);
+    padding: 7px;
+    border-radius: 25px;
+    border: none;
+    margin-left: 10px;
+    margin: 5px;
+    font-family: "Zalando Sans Expanded", sans-serif;
+    
+}
+textarea{
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: papayawhip;
+}
+button:hover{
+    transform: scale(1.08);
+    transition: 0.2s;
+}
+input{
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: papayawhip;
+}
+.male{
+    color: papayawhip;
+    margin-left: 10px;
+}
+.female{
+    color: papayawhip;
+    margin-left: 10px;
+}
+.detail1{
+    border: 0.2px solid papayawhip;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+.detail2{
+    border: 0.2px solid papayawhip;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+.detail3{
+    border: 0.2px solid papayawhip;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+.detail4{
+    border: 0.2px solid papayawhip;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+.detail1:hover{
+    transform: scale(1.011);
+    transition: 0.2s;
+}
+.detail2:hover{
+    transform: scale(1.011);
+    transition: 0.2s;
+}
+.detail3:hover{
+    transform: scale(1.011);
+    transition: 0.2s;
+}
+.detail4:hover{
+    transform: scale(1.011);
+    transition: 0.2s;
+}

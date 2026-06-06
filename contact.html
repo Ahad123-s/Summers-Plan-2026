@@ -1,0 +1,99 @@
+<!DOCTYPE>
+<html lang="en">
+    <head>
+    <title> Contact Us</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/summer_icon.png">
+    <meta name="description" content="Aahad Munir">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" >
+
+    </head>
+
+    <body>
+
+        <header>   
+            <ul>
+                <li> <h2>Contact Me here: </h2></li>
+            </ul>  
+          
+        </header>
+        
+
+        <main>
+            <section>
+                <ul>
+                    <li> <p> My <a href="https://x.com/Abdulahad1473" target="_blank"> Twitter </a> handle</p></li>
+                    <li> <p> My <a href="https://www.linkedin.com/in/aahad-munir-a45ab2311/?skipRedirect=true" target="_blank"> LinkedIn </a> profile</p></li>
+                    <li> <p> Email: <a href="mailto:ahadmunir623@gmail.com" target="_blank"> ahadmunir623@gmail.com </a></p></li>
+                </ul>
+            </section>
+
+            <section>
+                <ul>
+                    <li> <h2> Send Me a Message: </h2></li>
+                </ul>
+                
+
+                <form action="https://httpbin.org/post" method="post">
+                     <fieldset>
+
+                     <legend>Contact Form</legend>
+                   <p> 
+                    <label for="firstname" class="name"> First Name</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Enter your first name" autofocus required>
+                   </p> 
+                   <p>
+                    <label for="lastname" class="name"> Last Name</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Enter your last name" required>
+                   </p>
+                   <p>
+                    <label for="gender" class="gender">Your Gender: </label>
+                    
+                    <label for="male" class="male"> Male</label>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="female" class="female"> Female</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+
+                   </p>
+                   <p>
+                    <label for="age" class="age"> What's your age? </label>
+                    <input type="number" id="age" name="age" min="0" max="70"required>
+                   </p>
+                   <p>
+                    <label for="message" class="message"> Your Message</label>
+                    <br>
+                    <br>
+                    <textarea id="message" name="message" placeholder="Write your message here..." rows="5"
+                    cols="60" ></textarea>
+                   </p>
+
+                   <button type="submit"> Submit</button>
+                   <button type="reset"> Reset</button>
+                   
+                </form>
+                </fieldset>
+            </section>
+            
+        </main>
+        <section>
+            <ul>
+                <li> <h2> My Address </h2></li>
+            </ul>
+            
+            <address>
+            <p>House No. 14 Street No. 17 irfanabad tramri Islamabad, Pakistan. </p>
+        </address>
+        </section>
+
+         
+        <hr>
+
+        <footer>
+            <p> &copy; 2026 Aahad Munir. All rights reserved.</p>
+        </footer>
+    </body>
+
+</html>
