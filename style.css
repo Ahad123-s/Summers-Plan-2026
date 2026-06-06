@@ -173,3 +173,9 @@ input{
     transform: scale(1.011);
     transition: 0.2s;
 }
+.back-link{
+    text-align: center;
+    margin-top: 10px;
+    color: skyblue;
+    text-decoration: none;
+}
