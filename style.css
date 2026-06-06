@@ -164,3 +164,6 @@ input{
     transform: scale(1.011);
     transition: 0.2s;
 }
+form,fieldset,textarea,input{
+    max-width: 100%
+}
